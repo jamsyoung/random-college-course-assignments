@@ -1,0 +1,16 @@
+{
+  "name": "assignment1",
+  "version": "0.1.0",
+  "description": "assignment 1",
+  "author": "James Young <jmeyoung@gmail.com>",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/mocha/*.js"
+  },
+  "dependencies": {
+    "chai": "1.9.1",
+    "mocha": "1.21.0"
+  },
+  "license": "MIT"
+}
